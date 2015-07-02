@@ -1,9 +1,9 @@
 var gulp = require('gulp');
 
-gulp.task('dosomething for 3 minutes', function (done) {
+gulp.task('default', function (done) {
 
     setTimeout(function () {
         done(null, 'really done')
     }, 180000)
-    
+
 });
