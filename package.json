@@ -1,0 +1,18 @@
+{
+  "name": "travis-experiments",
+  "version": "1.0.0",
+  "description": "travis-experiments ==================",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.wdf.sap.corp/D061084/travis-experiments.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "git+https://github.com/gulpjs/gulp.git"
+  }
+}
