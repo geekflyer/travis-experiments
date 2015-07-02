@@ -1,0 +1,21 @@
+
+
+/node_modules
+
+
+# ignore workspace.xml and tasks.xml from .idea (webstorm) project folder
+.idea/workspace.xml
+.idea/tasks.xml
+
+# ignore changes to local credential files
+
+# ignore local folder to test some local stuff
+local
+
+# ignore generated docs
+
+# ignore temporary stuff
+
+npm-debug.log
+.grunt
+.tmp
