@@ -1,6 +1,9 @@
 branches:
   only:
     - master
+cache:
+  directories:
+    - $HOME/.npm
 language: node_js
 node_js:
   - 0.12

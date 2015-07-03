@@ -13,6 +13,6 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "gulp": "git+https://github.com/gulpjs/gulp.git"
+    "gulp":"^3.0.0"
   }
 }
