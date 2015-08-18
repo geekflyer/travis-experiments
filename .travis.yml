@@ -1,4 +1,4 @@
-language: node_js
+language: java
 node_js:
   - 0.10
 branches:
@@ -8,5 +8,6 @@ cache:
   directories:
     - $HOME/.npm
 install:
-  - npm install
+  - mvn --version
+  - gradle --version
 script: ./node_modules/.bin/gulp
